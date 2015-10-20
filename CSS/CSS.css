@@ -35,13 +35,47 @@ nav a:hover{ /* How it looks when you hover with muose */
 }
 
 .container{
+
 	position:relative;
-	width: 80%;
-	margin: 0px auto 0px auto; /* top right bottom left */
-	border: 3px black solid; /* border-width border-color border-style*/
+	width:80%;
+	margin: 0px auto 0px auto;
+	border: 3px black solid;
+
 }
+
 
 .center{
 	margin:0px auto;
 	width: 50%
+}
+
+.containem{
+	min-width: 100%;
+	min-height: 100%;
+	z-index:-100%;
+	background-position: center;
+	background-size: cover;
+	background-image: url("../Images/Shia gif.gif");
+	position:relative;
+	width: 800px;
+	height:500px;
+	margin: 0px auto 0px auto; /* top right bottom left */
+	border: 3px black solid; /* border-width border-color border-style*/
+}
+
+.containes{
+	min-width: 100%;
+	min-height: 100%;
+	z-index:-100%;
+	background-position: center;
+
+	background-image: url("../Images/Andreas.jpg");
+	position:relative;
+	height:960px;
+	margin: 0px auto 0px auto; /* top right bottom left */
+	border: 3px black solid; /* border-width border-color border-style*/
+}
+
+.forsen{
+	
 }
